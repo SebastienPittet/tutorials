@@ -23,10 +23,9 @@ In the Instance details view, select the Snapshot you want to delete and
 click on `Delete Snapshot` to delete it.
 
 ## Limits
-* Snapshots are limited to 5 per Account. Please contact support should you
+* Snapshots are limited to 30 per Account. Please contact support should you
   need more.
 * Only one action is permitted at a time. For example, when a Snapshot is
   being destroyed, you cannot create a new Snapshot.
 * Snapshots cannot be named at the moment, they are identified by a UUID.
-* During beta stage Snapshots will not be billed. Once definitevely released they will be billed by their effective size.
 
