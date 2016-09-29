@@ -26,3 +26,5 @@ to eventual restrictions of your selected operative system.
 As for scaling the Service Level, scaling your disk size is easy. You can resize your volume up by steps of 1 GB. Instances from *Micro* up to *Huge* type can scale up to 400 GB, *Mega* instances scale up to 800 GB and Titan instances scale up to 1600 GB.
 
 For linux OS, filesystem resize happens at boot time automatically. For Windows Os, you will need to extend the partition size from Disk Management after boot.
+
+Downscaling of your disk is not allowed since it's hard to safely assume where data is written on the volume and you may end-up loosing informations.
