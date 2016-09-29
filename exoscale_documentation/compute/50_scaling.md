@@ -1,7 +1,7 @@
 ---
 title: "Scaling an Instance"
 slug: "instance-scaling"
-meta_desc: "Learn how to change the amount of CPU, memory or disk of your Instance. Exoscale Compute makes it very easy to scale up and down to best suit your needs"
+meta_desc: "Learn how to scale up CPU, memory or disk space of your Instance. Exoscale Compute makes it very easy to scale up your cloud server to best suit your needs"
 tags: "compute"
 ---
 
@@ -23,6 +23,6 @@ restart when finished. Remember that some Service Levels may be unavailable due
 to eventual restrictions of your selected operative system.
 
 ## Scaling the disk size
-As for scaling the Service Level, scaling your disk size is easy. You can resize
-your volume up and down by steps of 1 GB, with a higher limit of 400 GB per
-instance and a lower limit dictated by your operative system.
+As for scaling the Service Level, scaling your disk size is easy. You can resize your volume up by steps of 1 GB. Instances from *Micro* up to *Huge* type can scale up to 400 GB, *Mega* instances scale up to 800 GB and Titan instances scale up to 1600 GB.
+
+For linux OS, filesystem resize happens at boot time automatically. For Windows Os, you will need to extend the partition size from Disk Management after boot.
