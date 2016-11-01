@@ -8,6 +8,8 @@ tags: "compute"
 Snapshots provide a way to get point-in-time recovery for your Instance.
 In a typical usage example you would Snapshot your Instance before applying patches. Once the patches are installed, if your tests are not satisfying or an eventual incompatibility is introduced, you can revert to the Snapshot and restore the previous working state.
 
+Snapshots are strongly tied to your instance: if you delete your VM they will be deleted too.
+
 ![Snapshots are located in the instance detail screen](../img/compute/snapshot.png)
 
 ## Create a new Snapshot
@@ -28,4 +30,5 @@ click on `Delete Snapshot` to delete it.
 * Only one action is permitted at a time. For example, when a Snapshot is
   being destroyed, you cannot create a new Snapshot.
 * Snapshots cannot be named at the moment, they are identified by a UUID.
+* When you delete an instance, its snapshots are deleted too.
 
