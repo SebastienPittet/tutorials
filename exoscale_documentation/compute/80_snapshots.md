@@ -6,7 +6,7 @@ tags: "compute"
 ---
 
 Snapshots provide a way to get point-in-time recovery for your Instance.
-In a typical usage example you would Snapshot your Instance before applying patches. Once the patches are installed, if your tests are not satisfying or an eventual incompatibility is introduced, you can revert to the Snapshot and restore the previous working state.
+In a typical usage example you would Snapshot your Instance before applying patches. Once the patches are installed, if your tests are not satisfying or an incompatibility is introduced, you can revert to the Snapshot and restore the previous working state.
 
 ![Snapshots are located in the instance detail screen](../img/compute/snapshot.png)
 
